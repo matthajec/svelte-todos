@@ -4,7 +4,7 @@
   "description": "template for svelte",
   "main": "index.js",
   "scripts": {
-    "dev": "rollup -c -w",
+    "dev": "rollup -c rollup.devconfig.js -w",
     "build": "rollup -c",
     "start": "sirv public"
   },
